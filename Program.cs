@@ -35,9 +35,24 @@ namespace GarysWholeGarage
 
       //Create a Drive() method in the Vehicle class.
       myCessna.Drive();
+      myCessna.Turn("right");
+      myCessna.Stop();
+      Console.WriteLine();
+
       myRam.Drive();
+      myRam.Turn("left");
+      myRam.Stop();
+      Console.WriteLine();
+
       myTesla.Drive();
+      myTesla.Turn("left");
+      myTesla.Stop();
+      Console.WriteLine();
+
       myZero.Drive();
+      myZero.Turn("right");
+      myZero.Stop();
+      Console.WriteLine();
     }
   }
 }

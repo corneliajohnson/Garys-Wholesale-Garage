@@ -11,5 +11,15 @@ namespace GarysWholeGarage
     {
       Console.WriteLine("Vrooom!");
     }
+
+    public virtual void Turn(string direction)
+    {
+      Console.WriteLine($"The vehicle carfully turns {direction}");
+    }
+
+    public virtual void Stop()
+    {
+      Console.WriteLine("The vehicle gently Rolls to a stop");
+    }
   }
 }
