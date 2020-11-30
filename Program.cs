@@ -2,11 +2,14 @@
 
 namespace GarysWholeGarage
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      var myCessna = new Cessna();
+      var myRam = new Ram();
+      var myTesla = new Tesla();
+      var myZero = new Zero();
     }
+  }
 }
