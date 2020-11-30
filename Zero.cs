@@ -1,3 +1,5 @@
+using System;
+
 namespace GarysWholeGarage
 {
   public class Zero : Vehicle  // Electric motorcycle
@@ -7,6 +9,11 @@ namespace GarysWholeGarage
     public void ChargeBattery()
     {
       // method definition omitted
+    }
+
+    public override void Drive()
+    {
+      Console.WriteLine($"The {MainColor} Zero drives past. RRrrrrrummbbble!");
     }
   }
 }
