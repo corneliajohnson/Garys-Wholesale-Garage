@@ -2,13 +2,14 @@ using System;
 
 namespace GarysWholeGarage
 {
-  public class Ram : Vehicle // Gas powered truck
+  public class Ram : Vehicle, IGasVehicle // Gas powered truck
   {
     public double FuelCapacity { get; set; }
+    public decimal CurrentTankPercentage { get; set; }
 
     public void RefuelTank()
     {
-      // method definition omitted
+      CurrentTankPercentage = 1;
     }
 
     public override void Drive()
