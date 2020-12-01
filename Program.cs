@@ -56,6 +56,7 @@ namespace GarysWholeGarage
       foreach (IGasVehicle gv in gasVehicles)
       {
         Console.WriteLine($"{gv.CurrentTankPercentage * 100}%");
+
       }
     }
   }
